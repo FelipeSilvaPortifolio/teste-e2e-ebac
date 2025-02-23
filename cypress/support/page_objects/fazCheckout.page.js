@@ -1,8 +1,6 @@
 class checkoutPage {
 
-    checkout(nome, sobrenome, empresa, pais, endereco, complemento, cidade, estado, cep, telefone, email, senha, comentario) {
-        //ações do método
-
+    checkoutSemLogin(nome, sobrenome, empresa, pais, endereco, complemento, cidade, estado, cep, telefone, email, senha, comentario) {
         cy.get('#cart > .dropdown-toggle').click();
         cy.get('.checkout').eq(1).click();
         cy.get('#billing_first_name').type(nome);
@@ -24,8 +22,13 @@ class checkoutPage {
         cy.get('#payment_method_cheque').check();
         cy.get('#terms').check();
         cy.get('#place_order').click();
+    }
 
-
+    checkoutComLogin(comentario) {
+        cy.get('#order_comments').type(comentario);
+        cy.get('#payment_method_cheque').check();
+        cy.get('#terms').check();
+        cy.get('#place_order').click();
     }
 
 }
