@@ -1,0 +1,36 @@
+[
+    {
+        "nomeProduto": "Abominable Hoodie",
+        "tamanho": "XS",
+        "cor": "Blue",
+        "quantidade": 1
+    },
+
+    {
+        "nomeProduto": "Tiberius Gym Tank",
+        "tamanho": "L",
+        "cor": "Yellow",
+        "quantidade": 1
+    },
+
+    {
+        "nomeProduto": "Ariel Roll Sleeve Sweatshirt",
+        "tamanho": "S",
+        "cor": "Purple",
+        "quantidade": 1
+    },
+
+    {
+        "nomeProduto": "Geo Insulated Jogging Pant",
+        "tamanho": 36,
+        "cor": "Blue",
+        "quantidade": 1
+    },
+
+    {
+        "nomeProduto": "Grayson Crewneck Sweatshirt",
+        "tamanho": "L",
+        "cor": "Red",
+        "quantidade": 1
+    }
+]
