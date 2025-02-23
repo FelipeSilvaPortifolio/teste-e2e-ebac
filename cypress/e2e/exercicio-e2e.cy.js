@@ -19,7 +19,7 @@ context("Exercicio - Testes End-to-end - Fluxo de pedido", () => {
     });
 
     it("Deve fazer um pedido na loja Ebac Shop de ponta a ponta - Cria novo usuário", function () {
-        const quantidadeProdutos = 1; // Define a quantidade de produtos conforme o cenário
+        const quantidadeProdutos = 4; // Define a quantidade de produtos conforme o cenário
         const nome = faker.person.firstName(); // Gera um nome aleatório
         const sobrenome = faker.person.lastName(); // Gera um sobrenome aleatório
         const email = faker.internet.email(nome, sobrenome); // Gera um email aleatório
@@ -46,7 +46,7 @@ context("Exercicio - Testes End-to-end - Fluxo de pedido", () => {
 
 
     it("Deve fazer um pedido na loja Ebac Shop de ponta a ponta - Faz Login", function () {
-        const quantidadeProdutos = 1; // Define a quantidade de produtos conforme o cenário
+        const quantidadeProdutos = 4; // Define a quantidade de produtos conforme o cenário
         const comentario = faker.lorem.sentence(20); // Gera um comentário aleatório
 
     // Adiciona os produtos ao carrinho de acordo com a quantidade definida
